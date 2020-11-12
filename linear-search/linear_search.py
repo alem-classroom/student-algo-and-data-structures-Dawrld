@@ -1,5 +1,5 @@
 def linear_search(lst, to_find):
-  for i in range(lst):
+  for i in range(len(lst)):
     if lst[i]==to_find:
       return i
   else:
