@@ -1,7 +1,7 @@
 def linear_search(lst, to_find):
-  for i in lst:
-    if i==to_find: 
-      return lst.index(i)
+  if to_find in lst: 
+    return lst.index(i)
+  else:
     return -1
   # search for the element to_find inside lst
   # if found, return index of element
